@@ -1,0 +1,136 @@
+@media screen and (min-width: 1500px) and (max-width: 1699px){
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px){
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px){
+    .h-main{
+        margin: 7px 20px;
+       /*left: 50px;
+        position: relative;*/
+    }
+    .h-main>ul>li{
+        margin: 20px 23px 0;
+    }
+    .c-title img {
+        width: 92%;
+    }
+    /********  why  *******/
+    .c-why-info {
+        /*width: 880px;*/
+        width: 92%;
+    }
+    .c-why-info ul li,
+    .c-why-info ul li.last{
+        /*width: 410px;*/
+        width: 46%;
+        height: 130px;
+        background-size: 100% 130px;
+    }
+    .c-why-info ul li em {
+        font-size: 40px;
+        top: 32px;
+        left: 15px;
+    }
+    .c-why-info ul li.last em {
+        left: 40px;
+    }
+    .c-why-info ul li .list {
+        /*width: 300px;*/
+        width: 71%;
+        padding: 15px 0 0 80px;
+    }
+    .c-why-info ul li.last .list {
+        padding-left: 105px;
+    }
+    .c-why-info ul li .list h2 {
+        font-size: 20px;
+        margin-top: -7px;
+    }
+    .c-why-info ul li .list p {
+        padding-top: 10px;
+    }
+
+
+    .c-teacher-info {
+        width: 830px;
+    }
+    .c-teacher-m ul {
+        left:-728px;
+    }
+
+    .c-problem-info {
+        width: 92%;
+    }
+
+    .c-feedback-info {
+        width: 92%;
+    }
+    .c-feedback-info  ul li{
+        width: 30%;
+        min-height: 150px;
+        margin: 20px 2.4154% 20px 0;
+        padding-right: 20px;
+    }
+    .c-feedback-info  ul li div {
+        width: 220px;
+        padding: 20px 0;
+        margin-left: 20px;
+    }
+
+    .c-feedback-info  ul li div h2{
+        width: 120px;
+    }
+
+    .c-address-info {
+        width: 92%;
+    }
+    #c-address-map {
+        height: 350px;
+        margin: 15px auto;
+    }
+
+
+}/*end 900 - 1099*/
+
+
+@media screen and (min-width: 600px) and (max-width: 899px){
+    header {
+        height: 50px;
+    }
+    .h-top-nav {
+        height: 50px;
+    }
+    .h-logo{
+        padding:5px;
+    }
+    .h-logo img {
+        height: 50px;
+        width: 142px;
+    }
+    .h-pc{
+        display: none;
+    }
+    .h-mobile{
+        display: block;
+        text-align: center;
+    }
+    .h-main {
+        float: none;
+        margin: 0;
+    }
+    .h-main>ul>li{
+        margin: 15px 10px 0;
+        width: 70px;
+    }
+    .h-main ul li a{
+        font-size: 18px;
+    }
+
+
+}
+@media screen and (min-width: 320px) and (max-width: 599px){
+
+}
